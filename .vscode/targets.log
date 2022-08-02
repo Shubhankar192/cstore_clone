@@ -1,0 +1,1080 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Jul 29 12:05:34 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 421)
+PROVE = 
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = cinnamon
+# default
+.SHELLFLAGS := -c
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 224)
+TCL_SHLIB_LD_LIBS = 
+# environment
+XDG_SESSION_CLASS = user
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 277)
+FLEXFLAGS = $(LFLAGS)
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 365)
+UNICODE_VERSION = 13.0.0
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 231)
+CLANG = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 205)
+enable_thread_safety = yes
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 334)
+perl_archlibexp = 
+# environment
+GTK3_MODULES = xapp-gtk3-module
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# 'override' directive (from '/usr/local/pgsql/lib/pgxs/src/makefiles/pgxs.mk', line 100)
+CPPFLAGS := -I. -I./ -I/usr/local/pgsql/include/server -I/usr/local/pgsql/include/internal  -D_GNU_SOURCE 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 233)
+BITCODE_CXXFLAGS = -O2 
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /home/shubhankar/.Xauthority
+# environment
+GDMSESSION = cinnamon
+# default
+MAKE_VERSION := 4.2.1
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 219)
+TCLSH = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 738)
+LIBOBJS = ${LIBOBJDIR}fls$U.o ${LIBOBJDIR}getpeereid$U.o ${LIBOBJDIR}strlcat$U.o ${LIBOBJDIR}strlcpy$U.o
+# makefile
+CURDIR := /home/shubhankar/Documents/_Internship/clone_extension
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 259)
+CXX = g++
+# makefile
+SHELL = /bin/sh
+# environment
+GDM_LANG = en_US
+# environment
+VTE_VERSION = 6003
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/pgxs.mk', line 145)
+HEADER_alldirs := $(subst ,, )
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 319)
+LDFLAGS_SL = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 226)
+PTHREAD_CFLAGS = -pthread -D_REENTRANT -D_THREAD_SAFE -D_POSIX_PTHREAD_SEMANTICS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 324)
+X = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 320)
+LDREL = -r
+# environment
+_ = /usr/bin/code
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 183)
+with_perl = no
+# 'override' directive (from '/usr/local/pgsql/lib/pgxs/src/makefiles/pgxs.mk', line 103)
+CFLAGS = -Wall -Wmissing-prototypes -Wpointer-arith -Wdeclaration-after-statement -Werror=vla -Wendif-labels -Wmissing-format-attribute -Wimplicit-fallthrough=3 -Wformat-security -fno-strict-aliasing -fwrapv -fexcess-precision=standard -Wno-format-truncation -Wno-stringop-truncation -O2 $(CFLAGS_SL)
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 311)
+LDFLAGS_INTERNAL = -L$(libdir)
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-cinnamon:/etc/xdg
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 354)
+DOWNLOAD = wget -O $@ --no-use-server-timestamps
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 541)
+WIN32_STACK_RLIMIT = 4194304
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 538)
+host_cpu = x86_64
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/pgxs.mk', line 200)
+define install_headers
+$(MKDIR_P) '$(DESTDIR)$(includedir_server)/$(incmoduledir)/$(1)/'
+$(INSTALL_DATA) $(2) '$(DESTDIR)$(includedir_server)/$(incmoduledir)/$(1)/'
+
+endef
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 338)
+perl_embed_ldflags = 
+# environment
+GTK_OVERLAY_SCROLLING = 1
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 227)
+PTHREAD_LIBS = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.port', line 1)
+MAKEFILE_LIST :=  Makefile /usr/local/pgsql/lib/pgxs/src/makefiles/pgxs.mk /usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global /usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.port
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 920)
+autodepend = 
+# automatic
+@F = $(notdir $@)
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 190)
+with_gssapi = no
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 286)
+DLLWRAP = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 257)
+GCC = yes
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 487)
+INSTALL = $(if $(use_install_sh),$(install_sh),$(if $(install_bin),$(install_bin),$(install_sh)))
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 351)
+GZIP = gzip
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 368)
+CLDR_VERSION = 37
+# 'override' directive
+GNUMAKEFLAGS := 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 510)
+FOP = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 193)
+with_libxml = no
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 199)
+enable_rpath = yes
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 266)
+CXXFLAGS = -Wall -Wpointer-arith -Wendif-labels -Wmissing-format-attribute -Wimplicit-fallthrough=3 -Wformat-security -fno-strict-aliasing -fwrapv -O2
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 161)
+pkgincludedir := /usr/local/pgsql/include
+# environment
+XDG_DATA_DIRS = /usr/share/cinnamon:/usr/share/gnome:/home/shubhankar/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 323)
+WINDRES = 
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 196)
+with_system_tzdata = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 39)
+VERSION = 13.7
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 290)
+UUID_LIBS = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 479)
+prove_installcheck = @echo "TAP tests not enabled"
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 346)
+MSGMERGE = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 881)
+define _create_recursive_target
+.PHONY: $(1)-$(2)-recurse
+$(1): $(1)-$(2)-recurse
+$(1)-$(2)-recurse: $(if $(filter all install check installcheck, $(3)), submake-generated-headers) $(if $(filter check, $(3)), temp-install)
+	$$(MAKE) -C $(2) $(3)
+endef
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 342)
+AWK = gawk
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 262)
+CFLAGS_VECTOR = -funroll-loops -ftree-vectorize
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/pgxs.mk', line 113)
+docmoduledir := extension
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.port', line 8)
+DLSUFFIX = .so
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 278)
+DTRACE = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 241)
+CPP = gcc -E
+# environment
+VSCODE_CWD = /home/shubhankar/Documents/_Internship/clone_trigger
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/pgxs.mk', line 112)
+datamoduledir := extension
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 170)
+includedir_server = $(pkgincludedir)/server
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 192)
+with_ldap = no
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 534)
+build_os = linux-gnu
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 184)
+with_python = no
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 523)
+WANTED_LANGUAGES = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 294)
+with_gnu_ld = yes
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/pgsql/bin
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 275)
+BISONFLAGS = -Wno-deprecated $(YFLAGS)
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 591)
+libpq_pgport = -L$(libdir) -lpgcommon -lpgport $(libpq)
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.port', line 3)
+export_dynamic = -Wl,-E
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 22)
+standard_targets = all install installdirs uninstall distprep clean distclean maintainer-clean coverage check checkprep installcheck init-po update-po
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 293)
+LD = /usr/bin/ld
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 47)
+top_srcdir = $(top_builddir)
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 285)
+DLLTOOL = 
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 522)
+DEF_PGPORT = 5432
+# environment
+SESSION_MANAGER = local/Storm:@/tmp/.ICE-unix/1081,unix/Storm:/tmp/.ICE-unix/1081
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 188)
+with_selinux = no
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 164)
+localedir := /usr/local/pgsql/share/locale
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 160)
+includedir := /usr/local/pgsql/include
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 490)
+INSTALL_DATA_MODE = 644
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 592)
+libpq_pgport_shlib = -L$(libdir) -lpgcommon_shlib -lpgport_shlib $(libpq)
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 210)
+python_additional_libs = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 511)
+XMLLINT = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 645)
+ISOLATION_TESTDB = isolation_regression
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 187)
+with_readline = yes
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 263)
+CFLAGS_SSE42 = -msse4.2
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 669)
+pg_regress_installcheck = $(top_builddir)/src/test/regress/pg_regress --inputdir=$(srcdir) --bindir='$(bindir)' $(pg_regress_locale_flags) $(EXTRA_REGRESS_OPTS)
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 157)
+sysconfdir := /usr/local/pgsql/etc
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 291)
+UUID_EXTRA_OBJS = 
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 208)
+python_libdir = 
+# makefile (from 'Makefile', line 1)
+MODULES = clone
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 485)
+install_bin = /usr/bin/install -c
+# environment
+XDG_GREETER_DATA_DIR = /var/lib/lightdm-data/shubhankar
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 223)
+TCL_SHARED_BUILD = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/pgxs.mk', line 206)
+define uninstall_headers
+rm -f $(addprefix '$(DESTDIR)$(includedir_server)/$(incmoduledir)/$(1)'/, $(notdir $(2)))
+
+endef
+# environment
+XDG_SESSION_DESKTOP = cinnamon
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 288)
+LDAP_LIBS_FE = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 683)
+pg_isolation_regress_installcheck = $(top_builddir)/src/test/isolation/pg_isolation_regress --inputdir=$(srcdir) --outputdir=output_iso --bindir='$(bindir)' $(pg_regress_locale_flags) $(EXTRA_REGRESS_OPTS)
+# automatic
+%F = $(notdir $%)
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 653)
+TEMP_CONF = 
+# environment
+DISPLAY = :0
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 203)
+enable_coverage = no
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 58)
+srcdir = $(dir $(firstword $(MAKEFILE_LIST)))
+# environment
+VSCODE_PIPE_LOGGING = true
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 644)
+CONTRIB_TESTDB = contrib_regression
+# environment
+ 
+PWD = /home/shubhankar/Documents/_Internship/clone_extension
+# environment
+QT_QPA_PLATFORMTHEME = qt5ct
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 570)
+libpq_builddir = $(libdir)
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 155)
+bindir := /usr/local/pgsql/bin
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 352)
+BZIP2 = bzip2
+# makefile (from 'Makefile', line 2)
+EXTENSION = clone
+# default
+.LOADED := 
+# environment
+XDG_SEAT = seat0
+# environment
+SSH_AGENT_PID = 1169
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 162)
+mandir := /usr/local/pgsql/share/man
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = X-Cinnamon
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 494)
+INSTALL_STLIB = $(INSTALL_STLIB_ENV) $(INSTALL_DATA) $(INSTALL_STRIP_FLAG)
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 158)
+libdir := /usr/local/pgsql/lib
+# environment
+GTK_MODULES = gail:atk-bridge
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 347)
+PYTHON = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 489)
+INSTALL_SCRIPT_MODE = 755
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/shubhankar
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 486)
+install_sh = $(SHELL) $(top_srcdir)/config/install-sh -c
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 896)
+recurse = $(foreach target,$(if $1,$1,$(standard_targets)),$(foreach subdir,$(if $2,$2,$(SUBDIRS)),$(eval $(call _create_recursive_target,$(target),$(subdir),$(if $3,$3,$(target))))))
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 204)
+enable_tap_tests = no
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 429)
+add_to_path = $(1)="$(if $($(1)),$(2):$$$(1),$(2))"
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/shubhankar/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 348)
+TAR = /usr/bin/tar
+# environment
+LOGNAME = shubhankar
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 216)
+ICU_CFLAGS = 
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 173)
+bitcodedir = $(pkglibdir)/bitcode
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 322)
+RANLIB = ranlib
+# makefile (from 'Makefile', line 5)
+PGXS := /usr/local/pgsql/lib/pgxs/src/makefiles/pgxs.mk
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 222)
+TCL_INCLUDE_SPEC = 
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/pgxs.mk', line 187)
+header_file_list = $(HEADER_built_$(1)) $(addprefix $(srcdir)/,$(HEADER_unbuilt_$(1)))
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 43)
+PACKAGE_URL = https://www.postgresql.org/
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 220)
+TCL_LIBS = 
+# environment
+XDG_VTNR = 7
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 268)
+LLVM_CPPFLAGS = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 217)
+ICU_LIBS = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 189)
+with_systemd = no
+# environment
+MAKELEVEL := 0
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 906)
+recurse_always = $(foreach target,$(if $1,$1,$(standard_always_targets)),$(foreach subdir,$(if $2,$2,$(ALWAYS_SUBDIRS)),$(eval $(call _create_recursive_target,$(target),$(subdir),$(if $3,$3,$(target))))))
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 172)
+pgxsdir = $(pkglibdir)/pgxs
+# environment
+COLORTERM = truecolor
+# default
+MAKE = $(MAKE_COMMAND)
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 209)
+python_libspec = 
+# default
+MAKECMDGOALS := all
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 435)
+ld_library_path_var = LD_LIBRARY_PATH
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 501)
+missing = $(SHELL) $(top_srcdir)/config/missing
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 317)
+LDFLAGS_EX = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 505)
+STRIP_SHARED_LIB = strip --strip-unneeded
+# environment
+SHLVL = 1
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 516)
+GCOV = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 243)
+PG_SYSROOT = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 197)
+with_uuid = no
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 344)
+MSGFMT = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 643)
+PL_TESTDB = pl_regression
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 256)
+CC = gcc
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 264)
+CFLAGS_ARMV8_CRC32C = 
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-97de2575-ffc9-4f8c-a46a-51845d84f00d.sock
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 229)
+LLVM_CONFIG = 
+# environment
+XDG_SESSION_ID = c2
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 517)
+LCOV = 
+# environment
+USER = shubhankar
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 77)
+vpathsearch = `for f in $(addsuffix /$(1),$(subst :, ,. $(VPATH))); do test -r $$f && echo $$f && break; done`
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 41)
+VERSION_NUM = 130007
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 186)
+with_openssl = no
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 24)
+standard_always_targets = distprep clean distclean maintainer-clean
+# environment
+XDG_CURRENT_DESKTOP = X-Cinnamon
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 212)
+python_version = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 499)
+MKDIR_P = /usr/bin/mkdir -p
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 1101)
+define uninstall_llvm_module
+rm -rf '$(DESTDIR)${bitcodedir}/$(1)/'
+rm -f '$(DESTDIR)${bitcodedir}/$(1).index.bc'
+
+endef
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 292)
+LLVM_LIBS = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 321)
+LDOUT = -o
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 280)
+ZIC = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 185)
+with_tcl = no
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 1066)
+COMPILE.cxx.bc = $(CLANG) -xc++ -Wno-ignored-attributes $(BITCODE_CXXFLAGS) $(CPPFLAGS) -flto=thin -emit-llvm -c
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 191)
+with_krb_srvnam = postgres
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 537)
+host_os = linux-gnu
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 198)
+with_zlib = yes
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 270)
+LLVM_CXXFLAGS = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.port', line 1)
+AROPT = crs
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 182)
+with_icu = no
+# default
+MAKE_COMMAND := make
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 284)
+AR = ar
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 492)
+INSTALL_SCRIPT = $(INSTALL) -m $(INSTALL_SCRIPT_MODE)
+# environment
+OLDPWD = /home/shubhankar/Documents/_Internship
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 289)
+LDAP_LIBS_BE = 
+# default
+.VARIABLES := <D PROVE ?F DESKTOP_SESSION .SHELLFLAGS TCL_SHLIB_LD_LIBS XDG_SESSION_CLASS FLEXFLAGS XDG_SESSION_TYPE VSCODE_LOG_NATIVE UNICODE_VERSION CLANG enable_thread_safety perl_archlibexp GTK3_MODULES ?D CPPFLAGS BITCODE_CXXFLAGS @D XAUTHORITY GDMSESSION MAKE_VERSION TCLSH LIBOBJS CURDIR CXX SHELL GDM_LANG VTE_VERSION HEADER_alldirs LDFLAGS_SL PTHREAD_CFLAGS VSCODE_NLS_CONFIG X LDREL _ with_perl CFLAGS LDFLAGS_INTERNAL XDG_CONFIG_DIRS DOWNLOAD WIN32_STACK_RLIMIT host_cpu perl_embed_ldflags GTK_OVERLAY_SCROLLING PTHREAD_LIBS MAKEFILE_LIST autodepend @F with_gssapi DLLWRAP GCC INSTALL GZIP CLDR_VERSION GNUMAKEFLAGS FOP with_libxml enable_rpath CXXFLAGS pkgincludedir XDG_DATA_DIRS WINDRES DBUS_SESSION_BUS_ADDRESS with_system_tzdata VERSION VSCODE_VERBOSE_LOGGING UUID_LIBS prove_installcheck MSGMERGE _create_recursive_target AWK CFLAGS_VECTOR docmoduledir DLSUFFIX LESSOPEN DTRACE CPP VSCODE_CWD datamoduledir includedir_server with_ldap build_os with_python XDG_SESSION_PATH WANTED_LANGUAGES with_gnu_ld MAKE_HOST PATH BISONFLAGS libpq_pgport export_dynamic standard_targets LD top_srcdir DLLTOOL GPG_AGENT_INFO DEF_PGPORT SESSION_MANAGER with_selinux localedir XDG_RUNTIME_DIR includedir INSTALL_DATA_MODE libpq_pgport_shlib python_additional_libs XMLLINT ISOLATION_TESTDB with_readline CFLAGS_SSE42 pg_regress_installcheck sysconfdir VSCODE_LOG_STACK ELECTRON_RUN_AS_NODE UUID_EXTRA_OBJS .FEATURES python_libdir MODULES install_bin XDG_GREETER_DATA_DIR LS_COLORS TCL_SHARED_BUILD XDG_SESSION_DESKTOP SSH_AUTH_SOCK LDAP_LIBS_FE pg_isolation_regress_installcheck %F TEMP_CONF DISPLAY enable_coverage srcdir VSCODE_PIPE_LOGGING CONTRIB_TESTDB PWD QT_QPA_PLATFORMTHEME libpq_builddir bindir BZIP2 EXTENSION .LOADED XDG_SEAT SSH_AGENT_PID mandir ORIGINAL_XDG_CURRENT_DESKTOP INSTALL_STLIB libdir GTK_MODULES PYTHON INSTALL_SCRIPT_MODE VSCODE_AMD_ENTRYPOINT HOME install_sh recurse enable_tap_tests LESSCLOSE add_to_path VSCODE_CLI VSCODE_CODE_CACHE_PATH TAR LOGNAME ICU_CFLAGS APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL bitcodedir RANLIB PGXS TCL_INCLUDE_SPEC ELECTRON_NO_ATTACH_CONSOLE PACKAGE_URL VSCODE_HANDLES_UNCAUGHT_ERRORS GNOME_DESKTOP_SESSION_ID ^D TCL_LIBS XDG_VTNR LLVM_CPPFLAGS ICU_LIBS with_systemd MAKELEVEL recurse_always pgxsdir COLORTERM MAKE python_libspec MAKECMDGOALS ld_library_path_var missing LDFLAGS_EX STRIP_SHARED_LIB SHLVL GCOV PG_SYSROOT with_uuid MSGFMT PL_TESTDB CC CFLAGS_ARMV8_CRC32C VSCODE_IPC_HOOK_EXTHOST LLVM_CONFIG XDG_SESSION_ID LCOV USER vpathsearch VERSION_NUM with_openssl .DEFAULT_GOAL standard_always_targets XDG_CURRENT_DESKTOP python_version MKDIR_P uninstall_llvm_module LLVM_LIBS LDOUT ZIC with_tcl COMPILE.cxx.bc with_krb_srvnam host_os %D with_zlib LLVM_CXXFLAGS AROPT with_icu MAKE_COMMAND AR INSTALL_SCRIPT OLDPWD LDAP_LIBS_BE .VARIABLES incmoduledir *F LANGUAGE XDG_SEAT_PATH prove_check VSCODE_IPC_HOOK MSGFMT_FLAGS FLEX PORTNAME MAKEFLAGS MFLAGS *D krb_srvtab PG_CRC32C_OBJS have_win32_dbghelp DBTOEPUB includedir_internal BISON +D pg_regress_clean_files GDK_BACKEND DATA TAS +F MAJORVERSION enable_debug LLVM_CFLAGS STRIP QT_ACCESSIBILITY DESKTOP_AUTOSTART_ID PROVE_FLAGS LDFLAGS with_libxslt .SHELLSTATUS MAKEFILES PG_CONFIG top_builddir perl_includespec <F INSTALL_SHLIB_OPTS LN_S NO_TEMP_INSTALL CFLAGS_SL STRIP_STATIC_LIB path pg_regress_locale_flags pkglibdir DTRACEFLAGS PERL with_temp_install pg_regress_check COMPILE.c.bc LC_ALL enable_dtrace INSTALL_PROGRAM python_includespec LLVM_BINPATH TCL_LIB_SPEC libpq_srcdir PG_PROVE_FLAGS libpq LIBS GNOME_TERMINAL_SCREEN perl_embed_ccflags ^F python_majorversion pg_isolation_regress_check GNOME_TERMINAL_SERVICE SUFFIXES INSTALL_SHLIB CHROME_DESKTOP SUN_STUDIO_CC GENHTML PERMIT_DECLARATION_AFTER_STATEMENT enable_nls .INCLUDE_DIRS INSTALL_DATA docdir perl_privlibexp XGETTEXT .RECIPEPREFIX NO_GENERATED_HEADERS rpath XSLTPROC install_llvm_module LANG TERM host_tuple datadir VSCODE_PID rpathdir BITCODE_CFLAGS with_llvm
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/pgxs.mk', line 114)
+incmoduledir := extension
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = en_IN:en
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 480)
+prove_check = $(prove_installcheck)
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-24727aba-1.67.2-main.sock
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 345)
+MSGFMT_FLAGS = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 276)
+FLEX = /usr/bin/flex
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 532)
+PORTNAME = linux
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 214)
+krb_srvtab = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 741)
+PG_CRC32C_OBJS = pg_crc32c_sse42.o pg_crc32c_sb8.o pg_crc32c_sse42_choose.o
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 544)
+have_win32_dbghelp = no
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 509)
+DBTOEPUB = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 171)
+includedir_internal = $(pkgincludedir)/internal
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 274)
+BISON = /usr/bin/bison
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 659)
+pg_regress_clean_files = results/ regression.diffs regression.out tmp_check/ tmp_check_iso/ log/ output_iso/
+# environment
+GDK_BACKEND = x11
+# makefile (from 'Makefile', line 3)
+DATA = clone--0.0.1.sql
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 751)
+TAS = 
+# automatic
++F = $(notdir $+)
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 40)
+MAJORVERSION = 13
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 201)
+enable_debug = no
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/pgxs.mk', line 148)
+HEADER_allbuilt := 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 269)
+LLVM_CFLAGS = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 503)
+STRIP = strip
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+DESKTOP_AUTOSTART_ID = 10a4ec4af45635715e165907246020243500000010810026
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 426)
+PROVE_FLAGS = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 554)
+LDFLAGS = $(LDFLAGS_INTERNAL)   -Wl,--as-needed $(rpath)
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 194)
+with_libxslt = no
+# 'override' directive
+.SHELLSTATUS := 0
+# default
+MAKEFILES := 
+# makefile (from 'Makefile', line 4)
+PG_CONFIG = pg_config
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/pgxs.mk', line 84)
+top_builddir := /usr/local/pgsql/lib/pgxs/src/makefiles/../..
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 336)
+perl_includespec = 
+# automatic
+<F = $(notdir $<)
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 497)
+INSTALL_SHLIB_OPTS = -m 755
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 343)
+LN_S = ln -s
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/pgxs.mk', line 81)
+NO_TEMP_INSTALL = yes
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/pgxs.mk', line 195)
+HEADER_dirs := 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 261)
+CFLAGS_SL = -fPIC
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/pgxs.mk', line 170)
+ 
+HEADER_xdirs := 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 504)
+STRIP_STATIC_LIB = strip -x
+# environment
+path = /usr/local/pgsql/bin
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 658)
+pg_regress_locale_flags = $(if $(ENCODING),--encoding=$(ENCODING)) $(NOLOCALE)
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 159)
+pkglibdir := /usr/local/pgsql/lib
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 279)
+DTRACEFLAGS = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 330)
+PERL = '/usr/bin/perl'
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 440)
+with_temp_install = PATH="$(abs_top_builddir)/tmp_install$(bindir):$$PATH" $(call add_to_path,$(strip $(ld_library_path_var)),$(abs_top_builddir)/tmp_install$(libdir)) $(with_temp_install_extra)
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 661)
+pg_regress_check = $(with_temp_install) $(top_builddir)/src/test/regress/pg_regress --temp-instance=./tmp_check --inputdir=$(srcdir) --bindir= $(TEMP_CONF) $(pg_regress_locale_flags) $(EXTRA_REGRESS_OPTS)
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 1062)
+COMPILE.c.bc = $(CLANG) -Wno-ignored-attributes $(BITCODE_CFLAGS) $(CPPFLAGS) -flto=thin -emit-llvm -c
+# environment
+LC_ALL = C
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 202)
+enable_dtrace = no
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 491)
+INSTALL_PROGRAM = $(INSTALL_PROGRAM_ENV) $(INSTALL) $(INSTALL_STRIP_FLAG)
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 207)
+python_includespec = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 230)
+LLVM_BINPATH = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 221)
+TCL_LIB_SPEC = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 569)
+libpq_srcdir = $(includedir)
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 424)
+PG_PROVE_FLAGS = -I $(top_srcdir)/src/test/perl/ -I $(srcdir)
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 579)
+libpq = -L$(libpq_builddir) -lpq
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 743)
+LIBS := -lpgcommon -lpgport -lpthread -lz -lreadline -lrt -ldl -lm 
+# environment
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/fe7ef5d6_b781_4f9d_ae8a_915199f6bb53
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 337)
+perl_embed_ccflags = 
+# automatic
+^F = $(notdir $^)
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 211)
+python_majorversion = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 675)
+pg_isolation_regress_check = $(with_temp_install) $(top_builddir)/src/test/isolation/pg_isolation_regress --temp-instance=./tmp_check_iso --inputdir=$(srcdir) --outputdir=output_iso --bindir= $(TEMP_CONF) $(pg_regress_locale_flags) $(EXTRA_REGRESS_OPTS)
+# environment
+GNOME_TERMINAL_SERVICE = :1.138
+# default
+SUFFIXES := 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 495)
+INSTALL_SHLIB = $(INSTALL_SHLIB_ENV) $(INSTALL) $(INSTALL_SHLIB_OPTS) $(INSTALL_STRIP_FLAG)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 258)
+SUN_STUDIO_CC = no
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 518)
+GENHTML = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 265)
+PERMIT_DECLARATION_AFTER_STATEMENT = -Wno-declaration-after-statement
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 200)
+enable_nls = no
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 493)
+INSTALL_DATA = $(INSTALL) -m $(INSTALL_DATA_MODE)
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 163)
+docdir := /usr/local/pgsql/share/doc
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 335)
+perl_privlibexp = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 349)
+XGETTEXT = 
+# default
+.RECIPEPREFIX := 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/pgxs.mk', line 79)
+NO_GENERATED_HEADERS = yes
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.port', line 6)
+rpath = -Wl,-rpath,'$(rpathdir)',--enable-new-dtags
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 512)
+XSLTPROC = 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 1085)
+define install_llvm_module
+$(MKDIR_P) '$(DESTDIR)${bitcodedir}/$(1)'
+$(MKDIR_P) $(sort $(dir $(addprefix '$(DESTDIR)${bitcodedir}'/$(1)/, $(2))))
+$(foreach obj, ${2}, $(INSTALL_DATA) $(patsubst %.o,%.bc, $(obj)) '$(DESTDIR)${bitcodedir}'/$(1)/$(dir $(obj))
+)
+cd '$(DESTDIR)${bitcodedir}' && $(LLVM_BINPATH)/llvm-lto -thinlto -thinlto-action=thinlink -o $(1).index.bc $(addprefix $(1)/,$(patsubst %.o,%.bc, $(2)))
+
+endef
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 536)
+host_tuple = x86_64-pc-linux-gnu
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 156)
+datadir := /usr/local/pgsql/share
+# environment
+VSCODE_PID = 2098
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 551)
+rpathdir = $(libdir)
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 232)
+BITCODE_CFLAGS = -O2 
+# makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 195)
+with_llvm = no
+# variable set hash-table stats:
+# Load=326/1024=32%, Rehash=0, Collisions=114/567=20%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2055, inode 1582142): 9 files, 3 impossibilities.
+# /usr/local/pgsql/lib/pgxs/src/makefiles/../../src (device 2055, inode 1843760): 8 files, 3 impossibilities.
+# /usr/local/pgsql/lib/pgxs/src/makefiles (device 2055, inode 2284470): 3 files, 1 impossibilities.
+
+# 20 files, 7 impossibilities in 3 directories.
+
+# Implicit Rules
+
+%.so: %.o
+#  recipe to execute (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.port', line 13):
+	$(CC) $(CFLAGS) $< $(LDFLAGS) $(LDFLAGS_SL) -shared -o $@
+
+%.c: %.l
+#  recipe to execute (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 760):
+	$(FLEX) $(if $(FLEX_NO_BACKUP),-b) $(FLEXFLAGS) -o'$@' $<
+	@$(if $(FLEX_NO_BACKUP),if [ `wc -l <lex.backup` -eq 1 ]; then rm lex.backup; else echo "Scanner requires backup; see lex.backup." 1>&2; exit 1; fi)
+	$(if $(FLEX_FIX_WARNING),$(PERL) $(top_srcdir)/src/tools/fix-old-flex-code.pl '$@')
+
+%.c: %.y
+#  recipe to execute (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 768):
+	$(if $(BISON_CHECK_CMD),$(BISON_CHECK_CMD))
+	$(BISON) $(BISONFLAGS) -o $@ $<
+
+%.i: %.c
+#  recipe to execute (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 776):
+	$(CPP) $(CPPFLAGS) -o $@ $<
+
+%.gz: %
+#  recipe to execute (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 779):
+	$(GZIP) --best -c $< >$@
+
+%.bz2: %
+#  recipe to execute (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 782):
+	$(BZIP2) -c $< >$@
+
+%: %.c
+
+%: %.o
+#  recipe to execute (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 795):
+	$(CC) $(CFLAGS) $^ $(LDFLAGS) $(LDFLAGS_EX) $(LIBS) -o $@$(X)
+
+%.bc: %.c
+#  recipe to execute (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 1070):
+	$(COMPILE.c.bc) -o $@ $<
+
+%.bc: %.cpp
+#  recipe to execute (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 1073):
+	$(COMPILE.cxx.bc) -o $@ $<
+
+%.sql: %.sql.in
+#  recipe to execute (from '/usr/local/pgsql/lib/pgxs/src/makefiles/pgxs.mk', line 457):
+	sed 's,MODULE_PATHNAME,$$libdir/$*,g' $< >$@
+
+# 11 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.custom:
+#  Implicit rule search has been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+maintainer-clean: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+clone.control:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-22 11:08:25.106123766
+#  File has been updated.
+#  Successfully updated.
+
+checkprep:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 419):
+	$(if $(EXTRA_INSTALL),for extra in $(EXTRA_INSTALL); do $(MAKE) -C '$(top_builddir)'/$$extra DESTDIR='$(abs_top_builddir)'/tmp_install install || exit; done)
+
+all: submake-generated-headers clone.so clone.control
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.port:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-12 17:25:12.230092159
+#  File has been updated.
+#  Successfully updated.
+
+.PHONY: all install installdirs uninstall distprep clean distclean maintainer-clean coverage check checkprep installcheck init-po update-po install-strip html man installcheck-parallel update-unicode submake-generated-headers temp-install show_dl_suffix submake-libpq submake-libpgport submake-libpgfeutils submake
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  Modification time never checked.
+#  File has not been updated.
+
+.SECONDARY:
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  Modification time never checked.
+#  File has not been updated.
+
+distclean: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+
+temp-install: | submake-generated-headers
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-12 17:25:12.22609181
+#  File has been updated.
+#  Successfully updated.
+
+uninstall:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/usr/local/pgsql/lib/pgxs/src/makefiles/pgxs.mk', line 301):
+	rm -f $(addprefix '$(DESTDIR)$(datadir)/extension'/, $(notdir $(addsuffix .control, $(EXTENSION))))
+	rm -f $(addprefix '$(DESTDIR)$(datadir)/$(datamoduledir)'/, $(notdir $(DATA) $(DATA_built)))
+	rm -f $(addprefix '$(DESTDIR)$(pkglibdir)'/, $(addsuffix $(DLSUFFIX), $(MODULES)))
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-22 13:06:32.131166362
+#  File has been updated.
+#  Successfully updated.
+
+man:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+
+update-po:
+ 
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+
+update-unicode:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+
+submake-libpq: | submake-generated-headers
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 609):
+	$(MAKE) -C $(libpq_builddir) all
+
+show_dl_suffix:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 560):
+	@echo $(DLSUFFIX)
+
+submake-libpgport: | submake-generated-headers
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 612):
+	$(MAKE) -C $(top_builddir)/src/port all
+	$(MAKE) -C $(top_builddir)/src/common all
+
+# Not a target:
+clone.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-28 14:00:13.740182923
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  Modification time never checked.
+#  File has not been updated.
+
+installcheck: submake-generated-headers submake
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+
+submake-libpgfeutils: | submake-generated-headers
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 616):
+	$(MAKE) -C $(top_builddir)/src/port all
+	$(MAKE) -C $(top_builddir)/src/common all
+	$(MAKE) -C $(top_builddir)/src/fe_utils all
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/usr/local/pgsql/lib/pgxs/src/makefiles/pgxs.mk', line 342):
+	rm -f $(addsuffix $(DLSUFFIX), $(MODULES)) $(addsuffix .o, $(MODULES)) $(if $(PGFILEDESC),$(WIN32RES)) \
+	    $(addsuffix .bc, $(MODULES))
+
+coverage:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+/usr/local/pgsql/lib/pgxs/src/makefiles/pgxs.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-12 17:25:12.166086575
+#  File has been updated.
+#  Successfully updated.
+
+install-strip:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 845):
+	$(MAKE) use_install_sh=yes \
+	    INSTALL_PROGRAM_ENV="STRIPPROG='$(STRIP)'" \
+	    INSTALL_STLIB_ENV="STRIPPROG='$(STRIP_STATIC_LIB)'" \
+	    INSTALL_SHLIB_ENV="STRIPPROG='$(STRIP_SHARED_LIB)'" \
+	    INSTALL_STRIP_FLAG=-s \
+	    install
+
+submake:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+
+html:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+
+init-po:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+
+installcheck-parallel:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+
+.DELETE_ON_ERROR:
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  Modification time never checked.
+#  File has not been updated.
+
+check: submake-generated-headers temp-install
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/usr/local/pgsql/lib/pgxs/src/makefiles/pgxs.mk', line 433):
+	@echo '"$(MAKE) check" is not supported.'
+	@echo 'Do "$(MAKE) install", then "$(MAKE) installcheck" instead.'
+
+clone.so: clone.o
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'clone'
+#  Last modified 2022-07-28 14:00:13.808183117
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.port', line 13):
+	$(CC) $(CFLAGS) $< $(LDFLAGS) $(LDFLAGS_SL) -shared -o $@
+
+distprep:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+
+submake-generated-headers:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+installdirs:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/usr/local/pgsql/lib/pgxs/src/makefiles/pgxs.mk', line 274):
+	$(MKDIR_P) '$(DESTDIR)$(datadir)/extension'
+	$(MKDIR_P) '$(DESTDIR)$(datadir)/$(datamoduledir)'
+	$(MKDIR_P) '$(DESTDIR)$(pkglibdir)'
+
+install: all installdirs submake-generated-headers
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/usr/local/pgsql/lib/pgxs/src/makefiles/pgxs.mk', line 232):
+	$(INSTALL_DATA) $(addprefix $(srcdir)/, $(addsuffix .control, $(EXTENSION))) '$(DESTDIR)$(datadir)/extension/'
+	$(INSTALL_DATA) $(addprefix $(srcdir)/, $(DATA)) $(DATA_built) '$(DESTDIR)$(datadir)/$(datamoduledir)/'
+	$(INSTALL_SHLIB) $(addsuffix $(DLSUFFIX), $(MODULES)) '$(DESTDIR)$(pkglibdir)/'
+
+# files hash-table stats:
+# Load=39/1024=4%, Rehash=0, Collisions=5/134=4%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 80 / storage = 1308 B / avg = 16 B
+# current buf: size = 8162 B / used = 1308 B / count = 80 / avg = 16 B
+
+# strcache performance: lookups = 187 / hit rate = 57%
+# hash-table stats:
+# Load=80/8192=1%, Rehash=0, Collisions=6/187=3%
+# Finished Make data base on Fri Jul 29 12:05:34 2022
+
+ 
