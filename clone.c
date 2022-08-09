@@ -63,23 +63,23 @@ Datum clone(PG_FUNCTION_ARGS) {
 
 // Triggger Function : Function which will get called, whenever a trigger is fired.
 
-    char *function = (char*)palloc(4*strlen(table_name)+227+strlen(buf));
-    snprintf(function  
-    ,4*strlen(table_name)+227+strlen(buf),
-    "CREATE or REPLACE FUNCTION clone_data_%s() RETURNS TRIGGER AS $$ BEGIN EXECUTE 'COPY (select %s) to ''/home/data/%s.csv'' with CSV;' USING NEW; COPY clone_%s from '/home/data/%s.csv' delimiter ','; RETURN NEW; END; $$ language 'plpgsql';" 
-    ,table_name
-    ,buf               
-    ,table_name
-    ,table_name
-    ,table_name);
+    // char *function = (char*)palloc(4*strlen(table_name)+227+strlen(buf));
+    // snprintf(function  
+    // ,4*strlen(table_name)+227+strlen(buf),
+    // "CREATE or REPLACE FUNCTION clone_data_%s() RETURNS TRIGGER AS $$ BEGIN EXECUTE 'COPY (select %s) to ''/home/data/%s.csv'' with CSV;' USING NEW; COPY clone_%s from '/home/data/%s.csv' delimiter ','; RETURN NEW; END; $$ language 'plpgsql';" 
+    // ,table_name
+    // ,buf               
+    // ,table_name
+    // ,table_name
+    // ,table_name);
 
 
 // Executing Trigger  Function
 
-    int ret1 = SPI_exec(function , 1);
+    // int ret1 = SPI_exec(function , 1);
 
-    if(ret1 != 0 )
-        elog(INFO ,"Creating Functions and triggers");
+    // if(ret1 != 0 )
+    //     elog(INFO ,"Creating Functions and triggers");
 
 
 // Inserting Trigger to our Source  Table
@@ -89,12 +89,12 @@ Datum clone(PG_FUNCTION_ARGS) {
     // so for n tables , n triggers will also  get genereated. Once a trigger gets fired, 
     // it will execute a common function which will copy the data from source to destination.
     
-    char * trigger = (char*)palloc(33*strlen(table_name) + 98);
+    char * trigger = (char*)palloc(strlen(table_name) + 88);
 
     snprintf(
     trigger ,
-    3*strlen(table_name) + 98, 
-    "create trigger cloneData_%s after insert on %s for each row execute procedure clone_data_%s();" 
+    strlen(table_name) + 88, 
+    "create trigger clone_row after insert on %s for each row execute procedure trig_test();" 
     ,table_name 
     ,table_name
     ,table_name );
@@ -110,7 +110,7 @@ Datum clone(PG_FUNCTION_ARGS) {
     SPI_finish();  //Connection Closed and free the memory!
     pfree(command);
     pfree(trigger);
-    pfree(function);
+   // pfree(function);
     pfree(print_row);
    
     // pfree(copy_to);

@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jul 29 12:05:34 2022
+# Make data base, printed on Tue Aug  9 12:56:01 2022
 
 # Variables
 
@@ -178,7 +178,7 @@ DTRACE =
 # makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 241)
 CPP = gcc -E
 # environment
-VSCODE_CWD = /home/shubhankar/Documents/_Internship/clone_trigger
+VSCODE_CWD = /home/shubhankar/Documents/_Internship/clone_extension
 # makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/pgxs.mk', line 112)
 datamoduledir := extension
 # makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 170)
@@ -218,7 +218,7 @@ GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 522)
 DEF_PGPORT = 5432
 # environment
-SESSION_MANAGER = local/Storm:@/tmp/.ICE-unix/1081,unix/Storm:/tmp/.ICE-unix/1081
+SESSION_MANAGER = local/Storm:@/tmp/.ICE-unix/973,unix/Storm:/tmp/.ICE-unix/973
 # makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 188)
 with_selinux = no
 # makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 164)
@@ -280,6 +280,7 @@ LDAP_LIBS_FE =
 pg_isolation_regress_installcheck = $(top_builddir)/src/test/isolation/pg_isolation_regress --inputdir=$(srcdir) --outputdir=output_iso --bindir='$(bindir)' $(pg_regress_locale_flags) $(EXTRA_REGRESS_OPTS)
 # automatic
 %F = $(notdir $%)
+ 
 # makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 653)
 TEMP_CONF = 
 # environment
@@ -293,7 +294,6 @@ VSCODE_PIPE_LOGGING = true
 # makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 644)
 CONTRIB_TESTDB = contrib_regression
 # environment
- 
 PWD = /home/shubhankar/Documents/_Internship/clone_extension
 # environment
 QT_QPA_PLATFORMTHEME = qt5ct
@@ -310,7 +310,7 @@ EXTENSION = clone
 # environment
 XDG_SEAT = seat0
 # environment
-SSH_AGENT_PID = 1169
+SSH_AGENT_PID = 1060
 # makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 162)
 mandir := /usr/local/pgsql/share/man
 # environment
@@ -420,7 +420,7 @@ CC = gcc
 # makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 264)
 CFLAGS_ARMV8_CRC32C = 
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-97de2575-ffc9-4f8c-a46a-51845d84f00d.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-a3dd163c-5a89-42e8-84f9-6bc2b2ad05d7.sock
 # makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 229)
 LLVM_CONFIG = 
 # environment
@@ -486,7 +486,7 @@ OLDPWD = /home/shubhankar/Documents/_Internship
 # makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 289)
 LDAP_LIBS_BE = 
 # default
-.VARIABLES := <D PROVE ?F DESKTOP_SESSION .SHELLFLAGS TCL_SHLIB_LD_LIBS XDG_SESSION_CLASS FLEXFLAGS XDG_SESSION_TYPE VSCODE_LOG_NATIVE UNICODE_VERSION CLANG enable_thread_safety perl_archlibexp GTK3_MODULES ?D CPPFLAGS BITCODE_CXXFLAGS @D XAUTHORITY GDMSESSION MAKE_VERSION TCLSH LIBOBJS CURDIR CXX SHELL GDM_LANG VTE_VERSION HEADER_alldirs LDFLAGS_SL PTHREAD_CFLAGS VSCODE_NLS_CONFIG X LDREL _ with_perl CFLAGS LDFLAGS_INTERNAL XDG_CONFIG_DIRS DOWNLOAD WIN32_STACK_RLIMIT host_cpu perl_embed_ldflags GTK_OVERLAY_SCROLLING PTHREAD_LIBS MAKEFILE_LIST autodepend @F with_gssapi DLLWRAP GCC INSTALL GZIP CLDR_VERSION GNUMAKEFLAGS FOP with_libxml enable_rpath CXXFLAGS pkgincludedir XDG_DATA_DIRS WINDRES DBUS_SESSION_BUS_ADDRESS with_system_tzdata VERSION VSCODE_VERBOSE_LOGGING UUID_LIBS prove_installcheck MSGMERGE _create_recursive_target AWK CFLAGS_VECTOR docmoduledir DLSUFFIX LESSOPEN DTRACE CPP VSCODE_CWD datamoduledir includedir_server with_ldap build_os with_python XDG_SESSION_PATH WANTED_LANGUAGES with_gnu_ld MAKE_HOST PATH BISONFLAGS libpq_pgport export_dynamic standard_targets LD top_srcdir DLLTOOL GPG_AGENT_INFO DEF_PGPORT SESSION_MANAGER with_selinux localedir XDG_RUNTIME_DIR includedir INSTALL_DATA_MODE libpq_pgport_shlib python_additional_libs XMLLINT ISOLATION_TESTDB with_readline CFLAGS_SSE42 pg_regress_installcheck sysconfdir VSCODE_LOG_STACK ELECTRON_RUN_AS_NODE UUID_EXTRA_OBJS .FEATURES python_libdir MODULES install_bin XDG_GREETER_DATA_DIR LS_COLORS TCL_SHARED_BUILD XDG_SESSION_DESKTOP SSH_AUTH_SOCK LDAP_LIBS_FE pg_isolation_regress_installcheck %F TEMP_CONF DISPLAY enable_coverage srcdir VSCODE_PIPE_LOGGING CONTRIB_TESTDB PWD QT_QPA_PLATFORMTHEME libpq_builddir bindir BZIP2 EXTENSION .LOADED XDG_SEAT SSH_AGENT_PID mandir ORIGINAL_XDG_CURRENT_DESKTOP INSTALL_STLIB libdir GTK_MODULES PYTHON INSTALL_SCRIPT_MODE VSCODE_AMD_ENTRYPOINT HOME install_sh recurse enable_tap_tests LESSCLOSE add_to_path VSCODE_CLI VSCODE_CODE_CACHE_PATH TAR LOGNAME ICU_CFLAGS APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL bitcodedir RANLIB PGXS TCL_INCLUDE_SPEC ELECTRON_NO_ATTACH_CONSOLE PACKAGE_URL VSCODE_HANDLES_UNCAUGHT_ERRORS GNOME_DESKTOP_SESSION_ID ^D TCL_LIBS XDG_VTNR LLVM_CPPFLAGS ICU_LIBS with_systemd MAKELEVEL recurse_always pgxsdir COLORTERM MAKE python_libspec MAKECMDGOALS ld_library_path_var missing LDFLAGS_EX STRIP_SHARED_LIB SHLVL GCOV PG_SYSROOT with_uuid MSGFMT PL_TESTDB CC CFLAGS_ARMV8_CRC32C VSCODE_IPC_HOOK_EXTHOST LLVM_CONFIG XDG_SESSION_ID LCOV USER vpathsearch VERSION_NUM with_openssl .DEFAULT_GOAL standard_always_targets XDG_CURRENT_DESKTOP python_version MKDIR_P uninstall_llvm_module LLVM_LIBS LDOUT ZIC with_tcl COMPILE.cxx.bc with_krb_srvnam host_os %D with_zlib LLVM_CXXFLAGS AROPT with_icu MAKE_COMMAND AR INSTALL_SCRIPT OLDPWD LDAP_LIBS_BE .VARIABLES incmoduledir *F LANGUAGE XDG_SEAT_PATH prove_check VSCODE_IPC_HOOK MSGFMT_FLAGS FLEX PORTNAME MAKEFLAGS MFLAGS *D krb_srvtab PG_CRC32C_OBJS have_win32_dbghelp DBTOEPUB includedir_internal BISON +D pg_regress_clean_files GDK_BACKEND DATA TAS +F MAJORVERSION enable_debug LLVM_CFLAGS STRIP QT_ACCESSIBILITY DESKTOP_AUTOSTART_ID PROVE_FLAGS LDFLAGS with_libxslt .SHELLSTATUS MAKEFILES PG_CONFIG top_builddir perl_includespec <F INSTALL_SHLIB_OPTS LN_S NO_TEMP_INSTALL CFLAGS_SL STRIP_STATIC_LIB path pg_regress_locale_flags pkglibdir DTRACEFLAGS PERL with_temp_install pg_regress_check COMPILE.c.bc LC_ALL enable_dtrace INSTALL_PROGRAM python_includespec LLVM_BINPATH TCL_LIB_SPEC libpq_srcdir PG_PROVE_FLAGS libpq LIBS GNOME_TERMINAL_SCREEN perl_embed_ccflags ^F python_majorversion pg_isolation_regress_check GNOME_TERMINAL_SERVICE SUFFIXES INSTALL_SHLIB CHROME_DESKTOP SUN_STUDIO_CC GENHTML PERMIT_DECLARATION_AFTER_STATEMENT enable_nls .INCLUDE_DIRS INSTALL_DATA docdir perl_privlibexp XGETTEXT .RECIPEPREFIX NO_GENERATED_HEADERS rpath XSLTPROC install_llvm_module LANG TERM host_tuple datadir VSCODE_PID rpathdir BITCODE_CFLAGS with_llvm
+.VARIABLES := <D PROVE ?F DESKTOP_SESSION .SHELLFLAGS TCL_SHLIB_LD_LIBS XDG_SESSION_CLASS FLEXFLAGS XDG_SESSION_TYPE VSCODE_LOG_NATIVE UNICODE_VERSION CLANG enable_thread_safety perl_archlibexp GTK3_MODULES ?D CPPFLAGS BITCODE_CXXFLAGS @D XAUTHORITY GDMSESSION MAKE_VERSION TCLSH LIBOBJS CURDIR CXX SHELL GDM_LANG VTE_VERSION HEADER_alldirs LDFLAGS_SL PTHREAD_CFLAGS VSCODE_NLS_CONFIG X LDREL _ with_perl CFLAGS LDFLAGS_INTERNAL XDG_CONFIG_DIRS DOWNLOAD WIN32_STACK_RLIMIT host_cpu perl_embed_ldflags GTK_OVERLAY_SCROLLING PTHREAD_LIBS MAKEFILE_LIST autodepend @F with_gssapi DLLWRAP GCC INSTALL GZIP CLDR_VERSION GNUMAKEFLAGS FOP with_libxml enable_rpath CXXFLAGS pkgincludedir XDG_DATA_DIRS WINDRES DBUS_SESSION_BUS_ADDRESS with_system_tzdata VERSION VSCODE_VERBOSE_LOGGING UUID_LIBS prove_installcheck MSGMERGE _create_recursive_target AWK CFLAGS_VECTOR docmoduledir DLSUFFIX LESSOPEN DTRACE CPP VSCODE_CWD datamoduledir includedir_server with_ldap build_os with_python XDG_SESSION_PATH WANTED_LANGUAGES with_gnu_ld MAKE_HOST PATH BISONFLAGS libpq_pgport export_dynamic standard_targets LD top_srcdir DLLTOOL GPG_AGENT_INFO DEF_PGPORT SESSION_MANAGER with_selinux localedir XDG_RUNTIME_DIR includedir INSTALL_DATA_MODE libpq_pgport_shlib python_additional_libs XMLLINT ISOLATION_TESTDB with_readline CFLAGS_SSE42 pg_regress_installcheck sysconfdir VSCODE_LOG_STACK ELECTRON_RUN_AS_NODE UUID_EXTRA_OBJS .FEATURES python_libdir MODULES install_bin XDG_GREETER_DATA_DIR LS_COLORS TCL_SHARED_BUILD XDG_SESSION_DESKTOP SSH_AUTH_SOCK LDAP_LIBS_FE pg_isolation_regress_installcheck %F TEMP_CONF DISPLAY enable_coverage srcdir VSCODE_PIPE_LOGGING CONTRIB_TESTDB PWD QT_QPA_PLATFORMTHEME libpq_builddir bindir BZIP2 EXTENSION .LOADED XDG_SEAT SSH_AGENT_PID mandir ORIGINAL_XDG_CURRENT_DESKTOP INSTALL_STLIB libdir GTK_MODULES PYTHON INSTALL_SCRIPT_MODE VSCODE_AMD_ENTRYPOINT HOME install_sh recurse enable_tap_tests LESSCLOSE add_to_path VSCODE_CLI VSCODE_CODE_CACHE_PATH TAR LOGNAME ICU_CFLAGS APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL bitcodedir RANLIB PGXS TCL_INCLUDE_SPEC ELECTRON_NO_ATTACH_CONSOLE PACKAGE_URL VSCODE_HANDLES_UNCAUGHT_ERRORS GNOME_DESKTOP_SESSION_ID ^D TCL_LIBS XDG_VTNR LLVM_CPPFLAGS ICU_LIBS with_systemd MAKELEVEL recurse_always pgxsdir COLORTERM MAKE python_libspec MAKECMDGOALS ld_library_path_var missing LDFLAGS_EX STRIP_SHARED_LIB SHLVL GCOV PG_SYSROOT with_uuid MSGFMT PL_TESTDB CC CFLAGS_ARMV8_CRC32C VSCODE_IPC_HOOK_EXTHOST LLVM_CONFIG XDG_SESSION_ID LCOV USER vpathsearch VERSION_NUM with_openssl .DEFAULT_GOAL standard_always_targets XDG_CURRENT_DESKTOP python_version MKDIR_P uninstall_llvm_module LLVM_LIBS LDOUT ZIC with_tcl COMPILE.cxx.bc with_krb_srvnam host_os %D with_zlib LLVM_CXXFLAGS AROPT with_icu MAKE_COMMAND AR INSTALL_SCRIPT OLDPWD LDAP_LIBS_BE .VARIABLES incmoduledir *F LANGUAGE XDG_SEAT_PATH prove_check VSCODE_IPC_HOOK MSGFMT_FLAGS FLEX PORTNAME MAKEFLAGS MFLAGS *D krb_srvtab PG_CRC32C_OBJS have_win32_dbghelp DBTOEPUB includedir_internal BISON +D pg_regress_clean_files GDK_BACKEND DATA TAS +F NO_AT_BRIDGE MAJORVERSION enable_debug LLVM_CFLAGS STRIP QT_ACCESSIBILITY DESKTOP_AUTOSTART_ID PROVE_FLAGS LDFLAGS with_libxslt .SHELLSTATUS MAKEFILES PG_CONFIG top_builddir perl_includespec <F INSTALL_SHLIB_OPTS LN_S NO_TEMP_INSTALL CFLAGS_SL STRIP_STATIC_LIB path pg_regress_locale_flags pkglibdir DTRACEFLAGS PERL with_temp_install pg_regress_check COMPILE.c.bc LC_ALL enable_dtrace INSTALL_PROGRAM python_includespec LLVM_BINPATH TCL_LIB_SPEC libpq_srcdir PG_PROVE_FLAGS libpq LIBS GNOME_TERMINAL_SCREEN perl_embed_ccflags ^F python_majorversion pg_isolation_regress_check GNOME_TERMINAL_SERVICE SUFFIXES INSTALL_SHLIB CHROME_DESKTOP SUN_STUDIO_CC GENHTML PERMIT_DECLARATION_AFTER_STATEMENT enable_nls .INCLUDE_DIRS INSTALL_DATA docdir perl_privlibexp XGETTEXT .RECIPEPREFIX NO_GENERATED_HEADERS rpath XSLTPROC install_llvm_module LANG TERM host_tuple datadir VSCODE_PID rpathdir BITCODE_CFLAGS with_llvm
 # makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/pgxs.mk', line 114)
 incmoduledir := extension
 # automatic
@@ -535,6 +535,8 @@ DATA = clone--0.0.1.sql
 TAS = 
 # automatic
 +F = $(notdir $+)
+# environment
+NO_AT_BRIDGE = 1
 # makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 40)
 MAJORVERSION = 13
 # makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 201)
@@ -548,11 +550,12 @@ STRIP = strip
 # environment
 QT_ACCESSIBILITY = 1
 # environment
-DESKTOP_AUTOSTART_ID = 10a4ec4af45635715e165907246020243500000010810026
+DESKTOP_AUTOSTART_ID = 103246d9e5984f1b6d165995097440383000000009730026
 # makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 426)
 PROVE_FLAGS = 
 # makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 554)
 LDFLAGS = $(LDFLAGS_INTERNAL)   -Wl,--as-needed $(rpath)
+ 
 # makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 194)
 with_libxslt = no
 # 'override' directive
@@ -578,7 +581,6 @@ HEADER_dirs :=
 # makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 261)
 CFLAGS_SL = -fPIC
 # makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/pgxs.mk', line 170)
- 
 HEADER_xdirs := 
 # makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 504)
 STRIP_STATIC_LIB = strip -x
@@ -619,7 +621,7 @@ libpq = -L$(libpq_builddir) -lpq
 # makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 743)
 LIBS := -lpgcommon -lpgport -lpthread -lz -lreadline -lrt -ldl -lm 
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/fe7ef5d6_b781_4f9d_ae8a_915199f6bb53
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/e7c58868_3a28_40e2_8616_fbe729fb6e7d
 # makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 337)
 perl_embed_ccflags = 
 # automatic
@@ -629,7 +631,7 @@ python_majorversion =
 # makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 675)
 pg_isolation_regress_check = $(with_temp_install) $(top_builddir)/src/test/isolation/pg_isolation_regress --temp-instance=./tmp_check_iso --inputdir=$(srcdir) --outputdir=output_iso --bindir= $(TEMP_CONF) $(pg_regress_locale_flags) $(EXTRA_REGRESS_OPTS)
 # environment
-GNOME_TERMINAL_SERVICE = :1.138
+GNOME_TERMINAL_SERVICE = :1.191
 # default
 SUFFIXES := 
 # makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 495)
@@ -680,7 +682,7 @@ host_tuple = x86_64-pc-linux-gnu
 # makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 156)
 datadir := /usr/local/pgsql/share
 # environment
-VSCODE_PID = 2098
+VSCODE_PID = 4614
 # makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 551)
 rpathdir = $(libdir)
 # makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 232)
@@ -688,7 +690,7 @@ BITCODE_CFLAGS = -O2
 # makefile (from '/usr/local/pgsql/lib/pgxs/src/makefiles/../../src/Makefile.global', line 195)
 with_llvm = no
 # variable set hash-table stats:
-# Load=326/1024=32%, Rehash=0, Collisions=114/567=20%
+# Load=327/1024=32%, Rehash=0, Collisions=114/568=20%
 
 # Pattern-specific Variable Values
 
@@ -696,11 +698,11 @@ with_llvm = no
 
 # Directories
 
-# . (device 2055, inode 1582142): 9 files, 3 impossibilities.
+# . (device 2055, inode 1582142): 11 files, 3 impossibilities.
 # /usr/local/pgsql/lib/pgxs/src/makefiles/../../src (device 2055, inode 1843760): 8 files, 3 impossibilities.
 # /usr/local/pgsql/lib/pgxs/src/makefiles (device 2055, inode 2284470): 3 files, 1 impossibilities.
 
-# 20 files, 7 impossibilities in 3 directories.
+# 22 files, 7 impossibilities in 3 directories.
 
 # Implicit Rules
 
@@ -840,6 +842,7 @@ uninstall:
 #  File does not exist.
 #  File has not been updated.
 #  recipe to execute (from '/usr/local/pgsql/lib/pgxs/src/makefiles/pgxs.mk', line 301):
+ 
 	rm -f $(addprefix '$(DESTDIR)$(datadir)/extension'/, $(notdir $(addsuffix .control, $(EXTENSION))))
 	rm -f $(addprefix '$(DESTDIR)$(datadir)/$(datamoduledir)'/, $(notdir $(DATA) $(DATA_built)))
 	rm -f $(addprefix '$(DESTDIR)$(pkglibdir)'/, $(addsuffix $(DLSUFFIX), $(MODULES)))
@@ -859,7 +862,6 @@ man:
 #  File has not been updated.
 
 update-po:
- 
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File is an intermediate prerequisite.
@@ -1069,12 +1071,12 @@ install: all installdirs submake-generated-headers
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 80 / storage = 1308 B / avg = 16 B
-# current buf: size = 8162 B / used = 1308 B / count = 80 / avg = 16 B
+# strcache buffers: 1 (0) / strings = 82 / storage = 1322 B / avg = 16 B
+# current buf: size = 8162 B / used = 1322 B / count = 82 / avg = 16 B
 
-# strcache performance: lookups = 187 / hit rate = 57%
+# strcache performance: lookups = 189 / hit rate = 56%
 # hash-table stats:
-# Load=80/8192=1%, Rehash=0, Collisions=6/187=3%
-# Finished Make data base on Fri Jul 29 12:05:34 2022
+# Load=82/8192=1%, Rehash=0, Collisions=6/189=3%
+# Finished Make data base on Tue Aug  9 12:56:02 2022
 
  
