@@ -113,8 +113,7 @@ Datum clone(PG_FUNCTION_ARGS) {
    // pfree(function);
     pfree(print_row);
    
-    // pfree(copy_to);
-    // pfree(copy_from);
+ 
 
     PG_RETURN_INT64(proc);
 }
@@ -139,43 +138,3 @@ Datum clone(PG_FUNCTION_ARGS) {
 
 
 
-//Constructing Copy_to Command
-//     char *copy_to = (char *)palloc(2*strlen(table_name) + 37); 
-//     snprintf(copy_to , 2*strlen(table_name) + 37 , "COPY %s to '/home/data/%s.csv' with CSV", table_name , table_name);
-
-
-
-// //Constructing Copy_from  Command
-//     char *copy_from = (char *)palloc(2*strlen(table_name) + 49);
-//     snprintf(copy_from , 2*strlen(table_name) + 49, "COPY clone_%s from '/home/data/%s.csv' delimiter ','", table_name , table_name);
-
- 
-
-//     int ret1 = SPI_exec(copy_to , 1);
-//     if(ret1 != 0 )
-//         elog(INFO , "Copying  Data to csv!", ret1);
-//     int ret2 = SPI_exec(copy_from ,1);
-//     if(ret2 != 0 )
-//         elog(INFO , "Copying the data from csv to clone" ,ret2);
-
-
-
-    // strcat(command ,"create foreign table clone_");
-    // strcat(command ,table_name );
-    // strcat(command , "() inherits(");
-    // strcat(command ,table_name);
-    // strcat(command , ") server cstore_server"); 
-
-
-    // strcat(copy_to , "COPY ");
-    // strcat(copy_to , table_name); 
-    // strcat(copy_to , " to '/home/data/");
-    // strcat(copy_to , table_name);
-    // strcat(copy_to ,".csv' with CSV");
-
-
-    // strcat(copy_from , "COPY clone_");
-    // strcat(copy_from , table_name);  
-    // strcat(copy_from , " from '/home/data/");
-    // strcat(copy_from , table_name);
-    // strcat(copy_from , ".csv' delimiter ',' ");
